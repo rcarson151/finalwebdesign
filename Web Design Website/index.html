@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Game Zone</title>
+	<meta name="description" content="Welcome to Game Zone - Your ultimate destination for gaming consoles, accessories, and latest game releases.">
+    <meta name="keywords" content="game zone, gaming, consoles, PS, Xbox, Nintendo, video games">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+	
+	<style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+		.circle {
+            list-style-type: circle;
+        }
+        
+        .disc {
+            list-style-type: disc;
+        }
+        
+        .upper-roman {
+            list-style-type: upper-roman;
+        }
+
+		
+        .multi-column-container {
+            padding: 20px; 
+        }
+
+        
+        .multi-column {
+            column-count: 3; 
+            column-gap: 20px; 
+            column-rule: 1px solid #ccc; 
+        }
+
+        
+        .multi-column p {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        .multi-column p:hover {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+	<header>
+		<div class="header">
+	
+			<div class="container">
+				<div class="navbar">
+					<div class="logo">
+						<a href="index.html">
+							<img src="images/Game-Zone-21-03-2024.jpg" width="250" alt="Game Zone Logo">
+						</a>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="PlayStation.html">Play Station</a></li>
+							<li><a href="Xbox.html">Xbox</a></li>
+							<li><a href="Nintendo.html">Nintendo</a></li>
+							<li>
+			  <form class="search-form" action="/search" method="get">
+				<input type="text" name="q" placeholder="Search...">
+				<button type="submit">Search</button>
+			  </form>
+			</li>
+							<li><a href="form.html"><img src="images/cart.png" alt="cart" width="30" height="30"></a></li>
+						</ul>
+					</nav>
+					
+				</div>
+				<div class="row">
+					<div class="col-2">
+						<h1>This is a college project</h1>
+						<h2>Discover Your Gaming Potential!<br>Upgrade Your Gaming Arsenal!</h2>
+						<p>Explore a New Level of Gaming Excellence with Our Support<br>We're Passionate About Gaming - Join the Club!</p>
+						<a href="" class="btn">Explore Now &#8594;</a>
+					</div>
+					<div class="col-2">
+						<img src="images/pscontrollerandtext.jpg" alt="pscontrollerandtext">
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+	
+<main>
+<!--featured categories-->
+<div class="categories">
+	<div class="small-container">
+	<div class="row">
+		<div class="col-3">
+		<a href="PlayStation.html">
+			<img src="images/pslogo.png" width="125" alt="PS Logo">
+		</a>
+		</div>
+		<div class="col-3">
+		<a href="Xbox.html">
+			<img src="images/xboxlogo.png" width="125" alt="Xbox Logo">
+		</a>	
+		</div>
+		<div class="col-3">
+		<a href="Nintendo.html">
+			<img src="images/NintendoSwitchbutton.jpg" width="125" alt="Nintendo Logo">
+		</a>	
+		</div>
+	</div>
+	</div>
+</div>
+
+<!-- featured products -->
+<div class="small-container">
+	<h2 class="title">Featured Products</h2>
+	<div class="row">
+		<div class="col-4">
+			<img src="images/gowbox.jpg" alt="gow">
+			<h4>God of War Ragnorok(PS5)</h4>
+			<p>$69.99</p>
+		</div>
+		
+		<div class="col-4">
+			<img src="images/gta5xbox.jpg" alt="gta">
+			<h4>Grand Theft Auto V(Xbox X)</h4>
+			<p>$39.99</p>
+		</div>
+		
+		<div class="col-4">
+			<img src="images/ssbros.jpg" alt="ssbros">
+			<h4>Super Smash Bros Ultimate(Switch)</h4>
+			<p>$49.99</p>
+		</div>
+		
+		<div class="col-4">
+			<img src="images/spider-manMM.jpg" alt="spider-man">
+			<h4>Marvel's Spider-Man Miles Morales(PS4)</h4>
+			<p>$44.99</p>
+		</div>
+
+	</div>
+	
+	<!-- Latest products -->
+	
+	<h2 class="title">Latest Products</h2>
+			<div class="row">
+		<div class="col-4">
+			<img src="images/ACMirage.jpg" alt="ACMirage">
+			<h4>Assasins Creed Mirage(PS5)</h4>
+			<p>$69.99</p>
+		</div>
+		
+		<div class="col-4">
+			<img src="images/eldenring.jpg" alt="eldenring">
+			<h4>Elden Ring(Xbox X)</h4>
+			<p>$59.99</p>
+		</div>
+		
+		<div class="col-4">
+			<img src="images/pokemonscarlet.jpg" alt="pokemonscarlet">
+			<h4>Pokemon Scarlet(Switch)</h4>
+			<p>$49.99</p>
+		</div>
+		
+		<div class="col-4">
+			<img src="images/mw2xbox.jpg" alt="mw2xbox">
+			<h4>Call of Duty Modern Warfare 2(Xbox X)</h4>
+			<p>$69.99</p>
+		</div>
+
+	</div>
+			<div class="row">
+		<div class="col-4">
+			<img src="images/hogwarts.jpg" alt="hogwarts">
+			<h4>Hogwarts Legacy(PS5)</h4>
+			<p>$69.99</p>
+		</div>
+		
+		<div class="col-4">
+			<img src="images/soniccolours.jpg" alt="soniccolours">
+			<h4>Sonic Colours(Switch)</h4>
+			<p>$49.99</p>
+		</div>
+		
+		<div class="col-4">
+			<img src="images/animalcrossing.jpg" alt="animalcrossing">
+			<h4>Animal Crossing New Horizons (Switch)</h4>
+			<p>$49.99</p>
+		</div>
+		
+		<div class="col-4">
+			<img src="images/gothamxbox.jpg" alt="gotham">
+			<h4>Gotham Knights(Xbox X)</h4>
+			<p>$59.99</p>
+		</div>
+
+	</div>
+	
+</div>
+
+<!-- Table of Contents -->
+
+<h2 class="title">Table of Contents</h2>
+<div class="row">
+	<div class="col-4">
+	<table>
+		<thead>
+			<tr>
+				<th>Brands Available</th>
+				<th>Consoles Available</th>
+				<th>Number of games Available</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>PS</td>
+				<td>PS4, PS5</td>
+				<td>14</td>
+			</tr>
+			<tr>
+				<td>Xbox</td>
+				<td>Xbox One,Xbox Series X</td>
+				<td>14</td>
+			</tr>
+			<tr>
+				<td>Nintendo</td>
+				<td>Nintendo Switch</td>
+				<td>11</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+</div>
+
+<!-- Multi-column/article Section -->
+<article id="customer-reviews-section">
+<h2 class="title">Customer Reviews</h2>
+<div class="multi-column-container">
+	<div class="multi-column">
+	<p>"This gaming store is amazing! The selection of games is fantastic, and the staff are always friendly and helpful."</p>
+	<p>"I love shopping at Game Zone. They have all the latest releases and their prices are unbeatable!"</p>
+	<p>"Game Zone is my go-to place for all things gaming. The atmosphere is great, and I always find what I'm looking for."</p>
+	<p>"I purchased a PS5 console from Game Zone, and I couldn't be happier with my purchase. Highly recommend!"</p>
+	<p>"Game Zone exceeded my expectations! The website is easy to navigate, and I received my order promptly. Will definitely be shopping here again!"</p>
+	<p>"The staff at Game Zone are extremely knowledgeable and passionate about gaming. It's always a pleasure shopping here."</p>
+	</div>
+</div>
+</article>
+
+
+<!--offer-->
+<section>
+	<div class="offer">
+		<div class="small-container">
+			<div class="row">
+				<div class="col-2">
+					<img src="images/ps5console.jpg" alt="ps5console" class="offer-img">
+				</div>
+				<div class="col-2">
+					<p>Exclusively Available on Game Zone</p>
+					<h2>Play Station 5 Console</h2>
+					<small>The Play Station 5 Takes Gaming to a Whole New Level - With a Massive 1TB of Storage and Incredible Performance Improvements, You'll Never Want to Go Back to the Play Station 4!</small>
+					<br>
+					<a href="PlayStation.html" class="btn">Buy Now &#8594;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+</main>
+
+
+
+
+
+<!-- footer -->
+
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Game Zone</h4>
+  	 			<ul class="circle">
+  	 				<li><a href="#">About Us</a></li>
+  	 				<li><a href="#">Our Services</a></li>
+  	 				<li><a href="#">Privacy Policy</a></li>
+  	 				<li><a href="#">Affiliate Program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Get Help</h4>
+  	 			<ol class="upper-roman">
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">Shipping</a></li>
+  	 				<li><a href="#">Returns</a></li>
+  	 				<li><a href="#">Order Status</a></li>
+  	 				<li><a href="#">Payment Options</a></li>
+  	 			</ol>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Game Zone Products</h4>
+  	 			<ul class="disc">
+  	 				<li><a href="PlayStation.html">Play Station</a></li>
+  	 				<li><a href="Xbox.html">Xbox</a></li>
+  	 				<li><a href="Nintendo.html">Nintendo</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Follow us!</h4>
+  	 			<div class="social-links">
+					   <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+					   <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+					   <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+					   <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+
+			   <p>Copyright &copy;2024. Game Zone. All rights reserved.</p>
+
+  	 	</div>
+  	 </div>
+  </footer>
+	
+
+</body>
+
+</html>
